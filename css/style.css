@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-    --my-variable: brown; /* test */
+.my-navbar-link {
+    transition: 0.1s;
+}
+.my-navbar-link:hover {
+    opacity: 75%;
+    text-decoration: underline;
 }
 
 .main-header {
-    background-image: url(../img/fighter_jets/fighter_jets.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,4 +16,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.main-header-jets {
+    background-image: url(../img/fighter_jets/fighter_jets.jpg);
+}
+.main-header-tanks {
+    background-image: url(../img/fighter_jets/fighter_jets.jpg);
+}
+
+.main-content {
+
 }
