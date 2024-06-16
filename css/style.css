@@ -38,3 +38,13 @@ section p {
 section img {
     width: 100%;
 }
+
+.sources-link {
+    color: #000;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.sources-link:hover {
+    margin-left: 2em;
+    text-decoration: underline;
+}
