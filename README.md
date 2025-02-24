@@ -1,1 +1,1 @@
-https://mykhailo-odynets.github.io/adaptive/
+[Link](https://mykhailo-odynets.github.io/adaptive/)
